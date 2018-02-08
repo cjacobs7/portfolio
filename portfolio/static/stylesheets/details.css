@@ -1,0 +1,456 @@
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 7em;
+}
+
+hr {
+  width: 60%;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.content{
+    background: grey;
+    background-size: cover;
+    background-position: center; 
+	  height: 400px;
+	  padding-right: 0px;
+	  color: black;
+	  text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.row{
+  height: 400px;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.2),
+              
+}
+
+.col-xs-12.col-sm-12.col-md-4.col-lg-4{
+  padding: 0px;
+}
+.col-xs-12.col-sm-6.col-md-4.col-lg-4{
+  padding: 0px;
+}
+
+
+.panel_1{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-left: 25px;
+  font-size: 1.2em;
+  padding-right: 10%;
+  background: white;
+  background-size: cover;
+  background-position: center; 
+}
+
+.panel_2#bq{
+  height: 400px;
+  background: url("/static/images/bqPyScreenCap.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.panel_2#site{
+  height: 400px;
+  background: url("/static/images/Python3-powered_hello-world.jpg");
+  background-size: contain;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.panel_2#webapp{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-top: 10px;
+  background: #eeeeee;
+  background-size: cover;
+  background-position: center; 
+}
+
+.panel_2#webapp>ul li{
+  font-size: 20px;
+  width: 92.5%;
+  padding-top: 5px;
+}
+
+.panel_2#webapp>ul {
+  list-style: none;
+  width: 100%;
+}
+
+.panel_2#webapp>ul li:before {
+  content: '✓  ';
+}
+
+
+.panel_3{
+  height: 400px;
+  background: url("/static/images/FeatureWriteImage.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.panel_3#bq{
+  height: 400px;
+  background: url("/static/images/BigQuery_ScreenCapAfter.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.panel_3#site{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-top: 15%;
+  background: #eeeeee;
+  background-size: cover;
+  background-position: center; 
+}
+
+.panel_3#webapp{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-top: 10%;
+  background: #eeeeee;
+  background-size: cover;
+  background-position: center; 
+}
+
+.panel_4{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-top: 15%;
+  background: #eeeeee;
+  background-size: cover;
+  background-position: center; 
+}
+
+.panel_4#site{
+  height: 400px;
+  background: url("/static/images/jsSnapShot.jpg");
+  color: #595A5B;
+  text-align: center;
+  padding-top: 15%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.panel_4#webapp{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-top: 10%;
+  background: #eeeeee;
+  background-size: cover;
+  background-position: center; 
+}
+
+
+.panel_4#webapp>ul li{
+  font-size: 20px;
+  width: 92.5%;
+  padding-top: 5px;
+}
+
+.panel_4#webapp>ul {
+  list-style: none;
+  width: 100%;
+}
+
+.panel_5{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-top: 100px;
+  background: #eeeeee;
+  background-size: cover;
+  background-position: center; 
+}
+.panel_5#bq{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding: 25% 25% 25% 25%;
+  background: #eeeeee;
+  background-size: cover;
+  background-position: center; 
+}
+
+.panel_5#webapp{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-top: 165px;
+  background: #eeeeee;
+  background-size: cover;
+  background-position: center; 
+}
+
+.panel_6{
+    height: 400px;
+    background: url("/static/images/JavaFlow.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+
+.panel_6#bq{
+    height: 500px;
+    margin-top: 20px;
+    background: url("/static/images/WalletAmounts.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+    
+}
+
+a.button2 {
+  -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  display: block;
+  margin: 20px auto;
+  max-width: 180px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 30px;
+}
+
+a.button2 {
+  color: #595A5B;
+  background: white;
+  box-shadow: #595A5B 0 0px 0px 2px inset;
+}
+
+a.button2:hover {
+  color: white;
+  background: #595A5B;
+  box-shadow: #595A5B 0 80px 0px 2px inset;
+}
+
+/*============
+Navbar Test
+===========*/
+
+@media (min-width: 768px) {
+
+  .container-fluid{
+    padding-left: 108px;
+  }
+  
+  nav.navbar.navbar-default.sidebar{
+    width: 102px;
+    padding: 0px;
+  }
+  
+  li{
+    width: 100px;
+  }
+  
+  a.nav-link{
+    padding-top: 0px;
+    height: 150px;
+    width: 100px;
+  }
+  
+  .glyphicon{
+    font-size: 35px;
+    display: block;
+    width: 100%
+  }
+  
+  .nav>li>a{
+    text-align: center;
+    width: 100%;
+    padding-top: 50%;
+    border-top: 1px solid #f8f9fa;
+    border-bottom: 1px solid #f8f9fa;
+    line-height: 0; 
+    font-size: 0;
+    color: transparent; 
+  }
+  
+  .nav>li>a:hover{
+      border-top: 1px solid #595A5B;
+      border-bottom: 1px solid #595A5B;
+  }
+  
+  
+  nav.sidebar:hover + .main{
+    margin-left: 200px;
+  }
+  
+  nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
+  
+  nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+      
+  nav.sidebar a{
+    padding-right: 13px;
+  }
+  
+  nav.sidebar .navbar-nav > li:first-child{
+    border-top: 1px #e5e5e5 solid;
+  }
+  
+  nav.sidebar .navbar-nav > li{
+    border-bottom: 1px #e5e5e5 solid;
+  }
+  
+  nav.sidebar .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+    padding: 0px 0px 0px 0px;
+  }
+  
+  
+  nav.sidebar{
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin-bottom: 0px;
+    position: fixed;
+    z-index: 10000;
+  }
+  
+  nav.sidebar:hover{
+    margin-left: 0px;
+  }
+
+  .forAnimate{
+    opacity: 0;
+  }
+  
+
+}
+   
+@media (min-width: 1330px) {
+
+  nav.navbar.navbar-default.sidebar{
+    width: 152px;
+  }
+  li{
+    width: 150px;
+  }
+
+  a.nav-link{
+    height: 150px;
+    width: 150px;
+  }
+
+  .glyphicon{
+    font-size: 35px;
+    display: block;
+    width: 100%
+  }
+
+  .nav>li>a{
+    text-align: center;
+    width: 100%;
+    padding-top: 25%;
+    padding-left: 8px;
+    color: #595A5B;
+    font-size: 24px;
+    font-family: "Exo 2";
+    border-top: 1px solid #f8f9fa;
+    border-bottom: 1px solid #f8f9fa;
+    line-height: 40px;
+  }
+
+  .nav>li>a:hover{
+    border-top: 1px solid #595A5B;
+    border-bottom: 1px solid #595A5B;
+  }
+
+  nav.sidebar{
+    margin-left: 0px;
+    position: fixed;
+    z-index: 10000;
+  }
+
+  nav.sidebar .forAnimate{
+    opacity: 1;
+  }
+  .container-fluid{
+    padding-left: 158px;
+  }
+}
+
+
+@media (max-height: 758px){
+
+  .nav>li>a{
+    text-align: center;
+    width: 100%;
+    padding-top: 25%;
+    padding-left: 5px;
+    color: #595A5B;
+    font-size: 18px;
+    font-family: "Exo 2";
+    border-top: 1px solid #f8f9fa;
+    border-bottom: 1px solid #f8f9fa;
+    line-height: 40px;
+  }
+  a.nav-link{
+    padding-top: 0px;
+    height: 100px;
+  }
+
+  .glyphicon{
+    font-size: 0px;
+    display: block;
+    width: 100%
+  }
+
+}
+
+nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+  color: #CCC;
+  background-color: transparent;
+}
+
+nav:hover .forAnimate{
+  opacity: 1;
+}
+
+section{
+  padding-left: 15px;
+}
+

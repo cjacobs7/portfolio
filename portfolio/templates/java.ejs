@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CJ Jacobs</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel= "stylesheet" type= "text/css" href= "/static/stylesheets/details.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:600" rel="stylesheet">
+	<script type="text/javascript" src="static/js/scroll.js"></script>
+
+	
+</head>
+<body>
+
+<!--Navbar-->
+
+<nav class="navbar navbar-default sidebar" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>      
+    </div>
+    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a class = "nav-link" href="#"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-briefcase"></span>JAVA</a></li>        
+        <li><a class = "nav-link" href="/"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-cloud-download"></span>BITQUERY</a></li>
+        <li><a class = "nav-link" href="/"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-wrench"></span>WEBAPP</a></li>
+        <li><a class = "nav-link" href="/"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-globe"></span>SITE</a></li>
+        <li><a class = "nav-link" href="/"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span>ABOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--content-->
+ <div class="container-fluid">
+ 	<div class="row">
+ 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+ 			<div class="panel_1">
+ 			    <h3>About</h3>
+ 			    <hr>
+ 			    <p>PowerProductsCrawlerScrape was isolated from a more robust Java program that I devloped during my time at West Marine. That
+                     program runs for West Marine to update WestMarine.com and WestMarinePro.com with vendor content.</p>
+ 
+                     <p>This modified program takes a starting point URL and csv file from STDIN then uses a
+                      BFS to efficiently crawl the designated site. When it finds a Product Page,
+                     it opens a webdriver to load all necessary JS to expose data to scrape. If the 
+                     PDP has a valid West Marine product, it scrapes the data and image, writes the data to an excel doc, 
+                     renames the image in the file format designated for west marine's Hybris Platform, and writes the
+                     content it into a specified location.</p>
+ 			</div>
+ 		</div>
+ 		 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+ 		     <div id="bq" class="panel_2">
+                
+            </div>
+ 		</div>
+ 	</div>
+ </div>
+ 
+ <div class="container-fluid">
+ 	<div class="row">
+ 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 			    <div class="panel_3">
+ 			        
+ 			    </div>
+ 		</div>
+ 		 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      			   <div class="panel_4">
+ 			        <h2>BFS Crawl</h2>
+ 			        <hr>
+ 			        <h3>A Breadth First Search is used to crawl vendor sites.
+ 			        Most vendor content only lives three or four levels deep</h3>
+ 			       </div>
+ 		</div>
+ 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      			   <div class="panel_5">
+ 			        <a href="https://drive.google.com/uc?export=download&id=14nXMn-8qhotXJHoNXZ6XqPn70oWuwW0E" class="button2" download>Download Zip</a>
+ 			        <a href="https://drive.google.com/uc?export=download&id=1lIBVfUqTgChFVZMyrqdPgKcwRnH_u1YV" class="button2" download>Download Jar</a>
+ 			        </div>
+ 		</div>
+ 	</div>
+ </div> 
+ 
+  <div class="container-fluid">
+ 	<div class="row">
+ 		<div class="col-xs-12">
+ 		    <div class="panel_6">
+ 		        
+ 		    </div>
+ 		</div>	    
+ 	</div>
+ </div>
+
+  
+</body>
+</html

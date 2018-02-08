@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CJ Jacobs</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel= "stylesheet" type= "text/css" href= "/static/stylesheets/details.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:600" rel="stylesheet">
+	<script type="text/javascript" src="static/js/scroll.js"></script>
+
+	
+</head>
+<body>
+
+<!--Navbar-->
+
+<nav class="navbar navbar-default sidebar" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>      
+    </div>
+    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a class = "nav-link" href="/"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-briefcase"></span>JAVA</a></li>        
+        <li><a class = "nav-link" href="#bitquery"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-cloud-download"></span>BITQUERY</a></li>
+        <li><a class = "nav-link" href="/"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-wrench"></span>WEBAPP</a></li>
+        <li><a class = "nav-link" href="/"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-globe"></span>SITE</a></li>
+        <li><a class = "nav-link" href="/"><span class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span>ABOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--content-->
+ <div class="container-fluid">
+ 	<div class="row">
+ 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+ 			<div class="panel_1">
+ 			    <h3>BitQuery</h3>
+ 			    <hr>
+ 			    <p>BitQuery is a project for using Google BigQuery to search public data.</p>
+          <p>This exercise used an SQL query to search the readily available public
+             GitHub repo data (2.2TB) for Bitcoin private keys that someone might
+             have accidentally uploaded and made public. It uses a regex to identify
+             a private key string, uses a python script with pybitcoin to hash a public key, and the blockchain
+             api to check wallet ballance.</p>
+             <p>End result was there were no wallet with a current balance. Although some had quite a bit of activity.
+             Turns out most programmers only upload test keys to well known public wallets.</p>
+ 			</div>
+ 		</div>
+ 		 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+ 		     <div id="bq" class="panel_2">
+ 			        
+ 			  </div>
+ 		</div>
+ 	</div>
+ </div>
+ 
+ <div class="container-fluid">
+ 	<div class="row">
+ 		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+ 			    <div id="bq" class="panel_3">
+ 			        
+ 			    </div>
+ 		</div>
+ 		 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+      			   <div id="bq" class="panel_4">
+      			   <h2>BigQuery</h2>
+ 			        <hr>
+ 			        <a href="https://drive.google.com/uc?export=download&id=1Qjdne-XV0A8scN07Ojn-fiixuuFL6RvP" class="button2" download>Download Zip</a>
+ 			       </div>
+ 		</div>
+
+ 	</div>
+ </div> 
+ 
+  <div class="container-fluid">
+ 	<div class="row">
+ 		<div class="col-xs-12">
+ 		    <div id="bq" class="panel_6">
+ 		        
+ 		    </div>
+ 		</div>	    
+ 	</div>
+ </div>
+ 
+  
+</body>
+</html
