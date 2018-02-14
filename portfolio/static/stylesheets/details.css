@@ -71,6 +71,14 @@ hr {
   background-position: center; 
 }
 
+.panel_2#java{
+  height: 400px;
+  background: url("/static/images/FeatureCrawlerLeg.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
 .panel_2#bq{
   height: 400px;
   background: url("/static/images/bqPyScreenCap.jpg");
