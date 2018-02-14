@@ -58,10 +58,17 @@ hr {
   background-position: center; 
 }
 
-.panel_1#about{
-
-   margin-left: auto;
-   margin-right: auto;
+.panel_2#about{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 25px;
+  font-size: 1.2em;
+  padding-right: 10%;
+  background: white;
+  background-size: cover;
+  background-position: center; 
 }
 
 .panel_2#bq{
@@ -141,6 +148,19 @@ hr {
   background-position: center; 
 }
 
+.panel_3#about{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 25px;
+  font-size: 1.2em;
+  padding-right: 10%;
+  background: white;
+  background-size: cover;
+  background-position: center; 
+}
+
 .panel_4{
   height: 400px;
   color: #595A5B;
@@ -184,6 +204,19 @@ hr {
   width: 100%;
 }
 
+.panel_4#about{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  background: #eeeeee;
+  padding-top: 100px;
+  padding-left: 25px;
+  font-size: 1.2em;
+  padding-right: 10%;
+  background-size: cover;
+  background-position: center; 
+}
+
 .panel_5{
   height: 400px;
   color: #595A5B;
@@ -212,6 +245,18 @@ hr {
   background-size: cover;
   background-position: center; 
 }
+.panel_5#about{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  background: #eeeeee;
+  padding-top: 100px;
+  padding-left: 25px;
+  font-size: 1.2em;
+  padding-right: 10%;
+  background-size: cover;
+  background-position: center; 
+}
 
 .panel_6{
     height: 400px;
@@ -229,6 +274,18 @@ hr {
     background-position: center; 
     background-size: contain;
     
+}
+.panel_6#about{
+  height: 400px;
+  color: #595A5B;
+  text-align: center;
+  background: #eeeeee;
+  padding-top: 50px;
+  padding-left: 25px;
+  font-size: 1.2em;
+  padding-right: 10%;
+  background-size: cover;
+  background-position: center; 
 }
 
 a.button2 {
