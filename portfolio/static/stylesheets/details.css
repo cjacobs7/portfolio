@@ -58,6 +58,12 @@ hr {
   background-position: center; 
 }
 
+.panel_1#about{
+
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .panel_2#bq{
   height: 400px;
   background: url("/static/images/bqPyScreenCap.jpg");
