@@ -77,7 +77,7 @@ h1 {
 }
 
 .content#About{
-    background: #f4f4f4;
+    background: url(/static/images/AboutMePortfolio.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

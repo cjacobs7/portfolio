@@ -151,7 +151,7 @@ hr {
   color: #595A5B;
   text-align: center;
   padding-top: 10%;
-  background: #eeeeee;
+  background: url("/static/images/WebApp.png");
   background-size: cover;
   background-position: center; 
 }
@@ -248,7 +248,7 @@ hr {
   height: 400px;
   color: #595A5B;
   text-align: center;
-  padding-top: 165px;
+  padding-top: 50px;
   background: #eeeeee;
   background-size: cover;
   background-position: center; 
