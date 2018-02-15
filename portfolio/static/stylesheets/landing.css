@@ -200,7 +200,6 @@ a.nav-link{
     border-bottom: 1px solid #595A5B;
 }
 
-
 nav.sidebar:hover + .main{
   margin-left: 200px;
 }
@@ -349,3 +348,4 @@ nav:hover .forAnimate{
 section{
   padding-left: 15px;
 }
+
