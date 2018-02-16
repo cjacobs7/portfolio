@@ -73,7 +73,7 @@ hr {
 
 .panel_2#java{
   height: 400px;
-  background: url("/static/images/FeatureCrawlerLeg.jpg");
+  padding-top: 20px;
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
